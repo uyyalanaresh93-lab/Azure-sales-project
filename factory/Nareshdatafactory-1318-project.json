@@ -1,0 +1,15 @@
+{
+	"name": "Nareshdatafactory-1318-project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c4ea1a70-0b1c-471c-b82e-068c7f0f272c",
+		"tenantId": "3fbd60bf-1d74-47df-813a-89100cb7faba"
+	}
+}

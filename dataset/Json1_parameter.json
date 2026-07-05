@@ -1,0 +1,33 @@
+{
+	"name": "Json1_parameter",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "storageDataLakelinked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "file.json",
+				"fileSystem": "parameter"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"file_name": {
+					"type": "string"
+				},
+				"folder_name": {
+					"type": "string"
+				},
+				"ur_file": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
